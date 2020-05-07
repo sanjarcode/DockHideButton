@@ -20,8 +20,9 @@ function enable() {
 
   // set icon
   const icon = new St.Icon({
-    icon_name: "weather-clear-night-symbolic",
-    style_class: "system-status-icon",
+    icon_name: "window_fullscreen",
+    style_class: "actions",
+    icon_size: 22,
   });
 
   button.actor.add_actor(icon);

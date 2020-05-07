@@ -14,7 +14,7 @@ function toggleDash() {
   // flip the state
   isDockHidden = !isDockHidden;
 }
-
+// what's going on
 function enable() {
   button = new PanelMenu.Button(0.0); // create button
 
